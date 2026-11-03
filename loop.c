@@ -8,15 +8,15 @@ int main() {
         printf("Enter any Number: ");
         scanf("%d", &number);
 if (number % 2 == 0) {
-            printf("Even Number!\n");
+            printf("%d is an Even Number!",number);
         } else {
-            printf("Odd Number!\n");
+            printf("%d is ann Odd Number!",number);
         }
         printf("\n Do you want to check another number? (yes/no: )");
-        scanf(" %c",&choice);
+        scanf(" %s",&choice);
 
     }
-while(strcmp(choice,"tes")==0);
+while(strcmp(choice,"yes")==0);
 printf(" Thank you for using Program!");
 return 0;
 }
